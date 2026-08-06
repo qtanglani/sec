@@ -22,7 +22,7 @@
 
   
 
-  <title>闲话 | qtanglani的小窝</title>
+  <title>关于BA资源提取与图片放大 | qtanglani的小窝</title>
 
   
 
@@ -48,7 +48,7 @@
 <!-- header container -->
 <header class="header-container post">
   
-    <div class="post-image" style="background-image: url(https://raw.githubusercontent.com/qtanglani/BA-picture/refs/heads/main/Cucumis-melo-ice-cream/133948488_p0_master1200.jpg)"></div>
+    <div class="post-image" style="background-image: url(https://github.com/qtanglani/BA-picture/blob/main/paper.png?raw=true)"></div>
   
 
   <!-- navbar -->
@@ -99,11 +99,11 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">闲话</h1>
+          <h1 class="title-wrap">关于BA资源提取与图片放大</h1>
           <h2 class="title-sub-wrap">
             <strong>qtanglani</strong>
             <span>发布于</span>
-            <time  class="article-date" datetime="2026-08-04T12:47:00.000Z" itemprop="datePublished">2026-08-04</time>
+            <time  class="article-date" datetime="2026-08-06T10:17:00.000Z" itemprop="datePublished">2026-08-06</time>
           </h2>
           
           
@@ -134,10 +134,22 @@
       
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <h2 id="感觉现在这个oi是一点都复健不了了">感觉现在这个OI是一点都复健不了了</h2>
-<h2 id="洛谷比赛第一题就不会做">洛谷比赛第一题就不会做</h2>
-<h2 id="cf-div-2-2h只做了1道题">CF Div.2 2h只做了1道题</h2>
-<h2 id="现在真是完了蛋了">现在真是完了蛋了</h2>
+        <h2 id="由于想要白洲梓的图片当作背景-想要日富美的独立宣言-更多的是拿这些图片当作日后博客的封面-我开始探索拆包的道路">由于想要白洲梓的图片当作背景，想要日富美的独立宣言，更多的是拿这些图片当作日后博客的封面，我开始探索拆包的道路</h2>
+<p>拆包的确是不好的行为，BA官方也的确禁止过，如今的教程也都停留在22，23年。</p>
+<p>但我想要的是游戏内已经公布的CG等过场图片。</p>
+<h2 id="1-手机工具准备以及文件提取">1.手机工具准备以及文件提取</h2>
+<p>我的蔚蓝档案是国服，由于被限制魔法(实际是到期了)所以下载的国服，其实这也并不是坏事，因为后面还有很多未实装的角色，攒石头也可以按照xp来抽取</p>
+<p>我们需要<code>https://mt2.cn/</code>从这里下载手机的有关文件的工具，这个在小米应用商店是有的，其他的不清楚。</p>
+<p>使用这个工具的主要原因是我们所需的<code>MediaPatch</code>文件内包含了众多的小文件，直接传输到电脑上会造成文件资源管理器崩溃。如果崩溃，可以在任务管理器中重启资源管理器。</p>
+<p>打开这个软件后，会有两列明显的文件夹，打开其中一列的<code>Android/data/com.RoamingStar.BlueArchive/files</code>,并找到其中的<code>MediaPatch</code>文件夹，长按后压缩，<code>MediaPatch</code>文件夹内主要是过场动画以及场景，还有一些音乐和招募界面的视频。</p>
+<p>至于<code>AssetBundles</code>文件，里面则是模型与贴图，有需要的可以提取这个。</p>
+<p>压缩好文件后，我建议将它移动至与<code>Android</code>并列的文件夹内，这样在电脑中打开时简便，也不容易崩溃。</p>
+<h2 id="2-传输至电脑">2.传输至电脑</h2>
+<p>使用数据线，或者<code>FTP</code>，使用同一网络也可以，使用路由器的话可能网段不同，可能连不上，使用热点就能解决。之后在电脑上解压就好</p>
+<p>这样图片文件就算成功的提取出来了</p>
+<h2 id="3-图片的放大">3.图片的放大</h2>
+<p>国服BA是在手机上，这也就限制了里面的图片不可能很清晰。如果你有这样的需求，可以在<code>https://github.com/TransparentLC/realesrgan-gui/releases</code>中下载相应的版本，解压后打开<code>exe</code>就可以直接让图片清晰。推荐下载<code>realesrgan-gui-windows-bundled-v0.2.5.0.7z</code></p>
+<p>如果有条件的还可以直接使用<code>ComfyUI</code>，这个效果更好，不过有一定门槛，在此感谢能工智人的帮助。</p>
 
       </section>
 
@@ -149,12 +161,10 @@
             <div class="article-nav-item layout-padding">
   <article class="card-container article-nav-card content-padding--primary soft-size--large soft-style--box">
     
-      <div class="card-cover" background-image-lazy data-img="https://raw.githubusercontent.com/qtanglani/first/refs/heads/main/ananaftercut.png"></div>
-    
     <div class="card-text">
       
-        <a href="/sec/2026/07/25/%E5%AE%89%E5%AE%89%E6%9C%BA%E5%99%A8%E4%BA%BA/" itemprop="url">
-          <h2 class="card-text--title text-ellipsis">安安机器人</h2>
+        <a href="/sec/2026/08/06/%E5%A4%8D%E5%81%A5/" itemprop="url">
+          <h2 class="card-text--title text-ellipsis">复健</h2>
         </a>
       
       <div class="card-text--row">Older</div>
@@ -196,7 +206,7 @@
         <svg class="icon icon-article" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <path d="M240.51564747 647.74217627h196.07203239c16.59071043 0 30.16492806-13.57421762 30.16492805-30.16492806V165.10332731c0-33.18142087-30.16492806-60.32985613-60.32985612-60.32985611H245.04038668C225.43318342 104.7734712 210.35071939 119.85593522 210.35071939 139.46313845V617.57724821c0 16.59071043 13.57421762 30.16492806 30.16492808 30.16492806z m663.62841731-452.47392089v482.63884894c0 33.18142087-27.14843525 60.32985613-60.32985612 60.32985613H180.18579134c-33.18142087 0-60.32985613-27.14843525-60.32985612-60.32985613V195.26825538c-49.77213131 0-90.49478418 40.72265287-90.49478417 90.49478417v452.4739209c0 49.77213131 40.72265287 90.49478418 90.49478417 90.49478417h286.56681657c16.59071043 0 30.16492806 13.57421762 30.16492807 30.16492807s13.57421762 30.16492806 30.16492805 30.16492806h90.49478418c16.59071043 0 30.16492806-13.57421762 30.16492805-30.16492806s13.57421762-30.16492806 30.16492807-30.16492807h286.56681657c49.77213131 0 90.49478418-40.72265287 90.49478417-90.49478417V285.76303955c0-49.77213131-40.72265287-90.49478418-90.49478417-90.49478417zM587.41232014 647.74217627h191.54729318c19.60720323 0 34.68966726-15.08246403 34.68966729-34.68966727V134.93839925c0-16.59071043-13.57421762-30.16492806-30.16492808-30.16492805H617.57724821c-30.16492806 0-60.32985613 27.14843525-60.32985612 60.32985611v452.4739209c0 16.59071043 13.57421762 30.16492806 30.16492805 30.16492806z" fill="currentColor"></path>
 </svg>
-        <span>8</span>
+        <span>9</span>
       </div>
       <div class="count-box--item">
         <svg class="icon icon-categories" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
